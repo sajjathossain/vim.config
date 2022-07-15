@@ -23,6 +23,7 @@ colorscheme onedark
 
 " setups
 execute "source ~/.config/vim/setups/basics.vim"
+execute "source ~/.config/vim/setups/git.vim"
 execute "source ~/.config/vim/setups/nerd-tree.vim"
 
 " keymaps
