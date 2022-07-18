@@ -6,8 +6,6 @@ noremap k gk
 
 nnoremap Y y$
 
-" toggle float-term
-nnoremap <F12> :FloatermToggle<cr>
 "-------------- Letter: r ------------------------
 " Press * to search for the term under the cursor or a visual selection and
 " " then press a key below to replace all instances of it in the current file.

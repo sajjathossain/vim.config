@@ -22,6 +22,8 @@ call plug#begin("~/.vim/plugged")
   " Plug 'drewtempelmeyer/palenight.vim'
   Plug 'voldikss/vim-floaterm'
   Plug 'sirver/ultisnips'
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
+  Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc'  }
 call plug#end()
 
 set background=dark
@@ -31,7 +33,9 @@ let g:airline_theme = "onedark"
 execute "source ~/.config/vim/autocmds.vim"
 
 " setups
+execute "source ~/.config/vim/setups/airline.vim"
 execute "source ~/.config/vim/setups/basics.vim"
+execute "source ~/.config/vim/setups/floaterm.vim"
 execute "source ~/.config/vim/setups/git.vim"
 execute "source ~/.config/vim/setups/search.vim"
 execute "source ~/.config/vim/setups/nerd-tree.vim"
