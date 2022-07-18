@@ -30,6 +30,8 @@ let g:which_key_map.g = {
   \ 'h' : [ ':diffget //2', 'Get left diff' ],
   \ 'l' : [ ':diffget //3', 'Get right diff' ],
   \ 'L' : [ ':Git log', 'Show git log' ],
+  \ 'p' : [ ':Git push', 'Git push' ],
+  \ 'P' : [ ':Git pull', 'Git pull' ],
   \ 's' : [ ':Git', 'Show git status' ],
   \ 't' : [ ':GitGutterLineHighlightsToggle', 'Toggle git line highlight' ]
   \ }
