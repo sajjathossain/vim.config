@@ -1,6 +1,7 @@
 set exrc
 set expandtab
 set iskeyword+=-
+set backspace=start,eol,indent
 set clipboard=unnamedplus
 set relativenumber nu
 set noswapfile

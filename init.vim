@@ -10,7 +10,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'ryanoasis/vim-devicons'
   Plug 'ervandew/supertab'
   Plug 'scrooloose/nerdtree'
-  Plug 'kien/ctrlp.vim' " search files, buffers and etc
+  " Plug 'kien/ctrlp.vim' " search files, buffers and etc
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-commentary'
   Plug 'airblade/vim-gitgutter'

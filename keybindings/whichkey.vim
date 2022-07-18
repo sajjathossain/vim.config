@@ -10,6 +10,7 @@ nnoremap <silent> <localleader> :<c-u>WhichKey  ','<CR>
 
 let g:which_key_map.b = {
   \ 'name': '+buffer',
+  \ 'b' : [':FzfPreviewBuffersRpc', 'List all buffers'],
   \ 'd' : [':bdelete', 'Delete buffer'],
   \ 'h' : [':bprevious', 'Goto previous buffer'],
   \ 'l' : [':bnext', 'Goto next buffer'],
@@ -17,7 +18,7 @@ let g:which_key_map.b = {
 
 let g:which_key_map.f = {
   \ 'name': '+file',
-  \ 'f' : [':CtrlP', 'Find file'],
+  \ 'f' : [':FzfPreviewProjectFilesRpc', 'Find file'],
   \ 's' : [':w', 'Save'],
   \ 't' : [':NERDTreeFind', 'Find file in tree'],
   \ 'T' : [':NERDTreeToggle', 'Toggle file tree'],
