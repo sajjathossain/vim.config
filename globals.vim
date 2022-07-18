@@ -1,4 +1,6 @@
 set exrc
+set expandtab
+set iskeyword+=-
 set clipboard=unnamedplus
 set relativenumber nu
 set noswapfile
@@ -15,7 +17,13 @@ set incsearch
 set scrolloff=5
 set signcolumn=yes
 set wildmenu
-set wildmode=full
+set wildmode=full:longest
 " set colorcolumn=80
 set cursorline
 syntax on
+
+filetype on
+filetype plugin on
+filetype indent on
+
+highlight SpecialKey ctermfg=5

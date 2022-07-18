@@ -3,8 +3,7 @@ execute "source ~/.config/vim/globals.vim"
 call plug#begin("~/.vim/plugged")
   Plug 'bling/vim-bufferline'
   Plug 'vim-airline/vim-airline'
-  Plug 'mkitt/tabline.vim'
-  Plug 'tpope/vim-sensible'
+  Plug 'vim-airline/vim-airline-themes'
   Plug 'scrooloose/syntastic'
   Plug 'jiangmiao/auto-pairs'
   Plug 'jistr/vim-nerdtree-tabs'
@@ -15,14 +14,21 @@ call plug#begin("~/.vim/plugged")
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-commentary'
   Plug 'airblade/vim-gitgutter'
-  Plug 'joshdick/onedark.vim'
-  Plug 'drewtempelmeyer/palenight.vim'
-  " Plug 'valloric/youcompleteme'
+  Plug 'liuchengxu/vim-which-key'
+  Plug 'tpope/vim-surround'
+  Plug 'mhartington/oceanic-next'
+  " Plug 'nlknguyen/papercolor-theme'
+  " Plug 'joshdick/onedark.vim'
+  " Plug 'drewtempelmeyer/palenight.vim'
+  Plug 'voldikss/vim-floaterm'
+  Plug 'sirver/ultisnips'
 call plug#end()
 
 set background=dark
-colorscheme palenight " themes: onedark, nord
-let g:airline_theme = "palenight"
+colorscheme OceanicNext " themes: onedark, nord, palenight, OceanicNext, PaperColor
+let g:airline_theme = "onedark"
+
+execute "source ~/.config/vim/autocmds.vim"
 
 " setups
 execute "source ~/.config/vim/setups/basics.vim"
@@ -33,9 +39,6 @@ execute "source ~/.config/vim/setups/nerd-tree.vim"
 " keymaps
 let mapleader=" "
 execute "source ~/.config/vim/keybindings/basics.vim"
-execute "source ~/.config/vim/keybindings/buffers.vim"
-execute "source ~/.config/vim/keybindings/file-tree.vim"
-execute "source ~/.config/vim/keybindings/git.vim"
-execute "source ~/.config/vim/keybindings/plugins.vim"
 execute "source ~/.config/vim/keybindings/search.vim"
 execute "source ~/.config/vim/keybindings/splits.vim"
+execute "source ~/.config/vim/keybindings/whichkey.vim"
