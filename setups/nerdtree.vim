@@ -7,13 +7,13 @@ let NERDTreeWinSize=35
 let NERDTreeShowHidden=1
 
 let g:NERDTreeGitStatusIndicatorMapCustom = {
-              \ 'Modified'  :'✹',
-              \ 'Staged'    :'✚',
+              \ 'Modified'  :'M',
+              \ 'Staged'    :'S',
               \ 'Untracked' :'✭',
               \ 'Renamed'   :'➜',
               \ 'Unmerged'  :'═',
               \ 'Deleted'   :'✖',
-              \ 'Dirty'     :'✗',
+              \ 'Dirty'     :'!',
               \ 'Ignored'   :'☒',
               \ 'Clean'     :'✔︎',
               \ 'Unknown'   :'?',

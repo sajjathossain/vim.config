@@ -1,5 +1,4 @@
 set updatetime=100
-autocmd BufWritePost * GitGutter
 highlight! link SignColumn LineNr
 
 let g:gitgutter_enabled = 1
