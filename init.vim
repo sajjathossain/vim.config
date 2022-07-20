@@ -37,6 +37,5 @@ execute "source ~/.config/vim/setups/git.vim"
 execute "source ~/.config/vim/setups/nerdtree.vim"
 
 " keymaps
-let mapleader=" "
 execute "source ~/.config/vim/keybindings/basics.vim"
 execute "source ~/.config/vim/keybindings/whichkey.vim"

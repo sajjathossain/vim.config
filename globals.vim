@@ -19,7 +19,6 @@ set scrolloff=5
 set signcolumn=yes
 set wildmenu
 set wildmode=full:longest
-" set colorcolumn=80
 set cursorline
 syntax on
 

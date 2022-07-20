@@ -72,14 +72,14 @@ let g:which_key_map.v = {
   \ }
 
 let g:which_key_map.w = {
-  \ 'name': '+vim',
-  \ 'c': [':sp', 'Split window horizontally'],
-  \ 'd': [':close', 'Close window'],
-  \ 'h': ['<C-w><C-h>', 'Switch to the left window'],
-  \ 'j': ['<C-w><C-j>', 'Switch to the bottom window'],
-  \ 'k': ['<C-w><C-k>', 'Switch to the up window'],
-  \ 'l': ['<C-w><C-l>', 'Switch to the right window'],
-  \ 'v': [':vsp', 'Split window vertically'],
-  \ 'w': ['<C-w>w', 'Switch window'],
+  \ 'name': '+window',
+  \ 'c' : [':sp', 'Split window horizontally'],
+  \ 'd' : [':close', 'Close window'],
+  \ 'h' : ['<c-w>h', 'Switch to the left window'],
+  \ 'j' : ['<c-w>j', 'Switch to the bottom window'],
+  \ 'k' : ['<c-w>k', 'Switch to the up window'],
+  \ 'l' : ['<c-w>l', 'Switch to the right window'],
+  \ 'v' : [':vsp', 'Split window vertically'],
+  \ 'w' : ['<c-w>w', 'Switch window'],
   \ }
 
