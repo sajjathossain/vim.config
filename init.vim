@@ -2,6 +2,7 @@ execute "source ~/.config/vim/globals.vim"
 
 call plug#begin("~/.vim/plugged")
   Plug 'bling/vim-bufferline'
+  Plug 'mhinz/vim-startify'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'scrooloose/syntastic'
