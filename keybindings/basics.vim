@@ -3,8 +3,10 @@
 noremap j gj
 " map gk as k
 noremap k gk
-
 nnoremap Y y$
+vnoremap > >gv
+vnoremap < <gv
+
 
 "-------------- Letter: r ------------------------
 " Press * to search for the term under the cursor or a visual selection and

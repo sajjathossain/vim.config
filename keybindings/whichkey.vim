@@ -59,6 +59,23 @@ let g:which_key_map.q = {
   \ 'Q' : [':q!', 'Quit buffer without saving'],
   \ }
 
+let g:which_key_map.r = {
+  \ 'name': '+resize',
+  \ 'h' : [':vertical resize -5', 'Resize vertically (-)'],
+  \ 'j' : [':resize -5', 'Resize horizontally (-)'],
+  \ 'k' : [':resize +5', 'Resize horizontally (+)'],
+  \ 'l' : [':vertical resize +5', 'Resize vertically (-)'],
+  \ }
+
+let g:which_key_map.t = {
+  \ 'name': '+tabs',
+  \ 'c' : [':tabclose', 'Close tab'],
+  \ 'h' : [':tabprevious', 'Goto previous tab'],
+  \ 'l' : [':tabNext', 'Goto next tab'],
+  \ 'n' : [':tabnew', 'Create new tab'],
+  \ 't' : [':tabs', 'List all tabs'],
+  \ }
+
 let g:which_key_map.v = {
   \ 'name': '+vim',
   \ 'e' : {
