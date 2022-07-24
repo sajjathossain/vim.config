@@ -22,8 +22,5 @@ set wildmode=full:longest
 set cursorline
 syntax on
 
-filetype on
-filetype plugin on
-filetype indent on
+filetype plugin indent on
 
-highlight SpecialKey ctermfg=5
