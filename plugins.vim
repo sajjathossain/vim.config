@@ -22,5 +22,11 @@ call plug#begin("~/.vim/plugged")
   Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc'  }
   Plug 'machakann/vim-highlightedyank'
   Plug 'prettier/vim-prettier'
+  Plug 'majutsushi/tagbar'
+  Plug 'w0rp/ale'
+  Plug 'nathanaelkane/vim-indent-guides'
+  Plug 'joshdick/onedark.vim'
+  Plug 'morhetz/gruvbox'
+  Plug 'vim-scripts/matchit.zip'
 call plug#end()
 
