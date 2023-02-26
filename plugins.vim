@@ -15,7 +15,6 @@ call plug#begin("~/.vim/plugged")
   Plug 'airblade/vim-gitgutter'
   Plug 'liuchengxu/vim-which-key'
   Plug 'tpope/vim-surround'
-  Plug 'mhartington/oceanic-next'
   Plug 'voldikss/vim-floaterm'
   Plug 'sirver/ultisnips'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
@@ -25,8 +24,14 @@ call plug#begin("~/.vim/plugged")
   Plug 'majutsushi/tagbar'
   Plug 'w0rp/ale'
   Plug 'nathanaelkane/vim-indent-guides'
+  Plug 'vim-scripts/matchit.zip'
+  Plug 'godlygeek/tabular'
+  Plug 'preservim/vim-markdown'
+
+  Plug 'sainnhe/everforest'
   Plug 'joshdick/onedark.vim'
   Plug 'morhetz/gruvbox'
-  Plug 'vim-scripts/matchit.zip'
+  Plug 'mhartington/oceanic-next'
+  Plug 'NLKNguyen/papercolor-theme'
 call plug#end()
 
