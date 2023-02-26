@@ -2,7 +2,7 @@ execute "source ~/.config/vim/globals.vim"
 execute "source ~/.config/vim/plugins.vim"
 
 set background=dark
-colorscheme gruvbox " themes: onedark, nord, palenight, OceanicNext, PaperColor
+colorscheme PaperColor " themes: onedark, nord, palenight, OceanicNext, PaperColor, ayu
 " let g:airline_theme = "onedark"
 
 execute "source ~/.config/vim/autocmds.vim"
