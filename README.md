@@ -1,1 +1,1 @@
-<h1 align="center">Simple vim config</h1>
+<h1 align="center">Not so simple vim config</h1>
