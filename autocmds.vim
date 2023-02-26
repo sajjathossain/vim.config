@@ -11,3 +11,6 @@ augroup filetype_vim
   autocmd BufNewFile,BufRead *.zsh* set syntax=sh
 augroup END
 
+
+""""""""""""Prettier"""""""""""
+autocmd BufWrite *.css, *.scss, *.ts, *.tsx, *.js, *.jsx, *.yaml Prettier
