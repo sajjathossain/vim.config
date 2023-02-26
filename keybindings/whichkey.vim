@@ -26,7 +26,8 @@ let g:which_key_map.f = {
 
 let g:which_key_map.g = {
   \ 'name': '+git',
-  \ 'b' : [ ':Git blame', 'Show git blame' ],
+  \ 'b' : [ ':Git branch', 'Show git branch' ],
+  \ 'B' : [ ':Git blame', 'Show git blame' ],
   \ 'd' : [ ':Git diff', 'Show git diff' ],
   \ 'h' : [ ':diffget //2', 'Get left diff' ],
   \ 'l' : [ ':diffget //3', 'Get right diff' ],
@@ -89,7 +90,7 @@ let g:which_key_map.v = {
   \ }
 
 let g:which_key_map.w = {
-  \ 'name': '+window',
+  \ 'name': '+window/+write',
   \ 'c' : [':sp', 'Split window horizontally'],
   \ 'd' : [':close', 'Close window'],
   \ 'h' : ['<c-w>h', 'Switch to the left window'],
@@ -98,5 +99,6 @@ let g:which_key_map.w = {
   \ 'l' : ['<c-w>l', 'Switch to the right window'],
   \ 'v' : [':vsp', 'Split window vertically'],
   \ 'w' : ['<c-w>w', 'Switch window'],
+  \ 'q' : [':wq', 'Write and quit'],
   \ }
 
