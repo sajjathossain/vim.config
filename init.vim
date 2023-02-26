@@ -2,13 +2,14 @@ execute "source ~/.config/vim/globals.vim"
 execute "source ~/.config/vim/plugins.vim"
 
 set background=dark
-colorscheme OceanicNext " themes: onedark, nord, palenight, OceanicNext, PaperColor
+colorscheme gruvbox " themes: onedark, nord, palenight, OceanicNext, PaperColor
 " let g:airline_theme = "onedark"
 
 execute "source ~/.config/vim/autocmds.vim"
 
 " setups
 execute "source ~/.config/vim/setups/airline.vim"
+execute "source ~/.config/vim/setups/ale.vim"
 execute "source ~/.config/vim/setups/basics.vim"
 execute "source ~/.config/vim/setups/floaterm.vim"
 execute "source ~/.config/vim/setups/git.vim"
