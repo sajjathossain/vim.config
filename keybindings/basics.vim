@@ -21,3 +21,8 @@ nnoremap <Leader>rc :%s///gc<Left><Left><Left>
 " nnoremap <leader>ved :e $MYVIMRC<cr>
 " source file
 " nnoremap <leader>vsf :so %<cr>
+
+
+" ale
+nmap <silent> <M-k> <Plug>(ale_previous_wrap)
+nmap <silent> <M-j> <Plug>(ale_next_wrap)
